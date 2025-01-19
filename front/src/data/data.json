@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"title": "ProtfolioV1",
+		"description": "This website.",
+		"state": 1
+	},
+	{
+		"id": 2,
+		"title": "Webshell",
+		"description": "Minishell + Terminal website.",
+		"state": 0
+	},
+	{
+		"id": 3,
+		"title": "StaticServ",
+		"description": "Webserv + static website.",
+		"state": 0
+	},
+	{
+		"id": 4,
+		"title": "TriComparator",
+		"description": "Tri algoritm comparision website.",
+		"state": 0
+	},
+	{
+		"id": 5,
+		"title": "Netflux",
+		"description": "Some web app dup.",
+		"state": 0
+	},
+	{
+		"id": 6,
+		"title": "...",
+		"description": "IDK...",
+		"state": 0
+	}
+]
