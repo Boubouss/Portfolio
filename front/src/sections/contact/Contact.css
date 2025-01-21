@@ -1,9 +1,9 @@
 .contact-container {
 	display: flex;
-	margin: 0px 100px 100px 100px;
+	margin: 0px 100px 150px 100px;
 	padding: 50px 100px;
 	background-color: var(--secondary-color);
-	gap: 10px;
+	gap: 100px;
 }
 
 .contact-form {
@@ -16,4 +16,49 @@
 
 .contact-text {
 	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+	margin: 30px 0px 40px 0px;
+}
+
+.contact-title {
+	font-size: 32px;
+	position: relative;
+}
+
+.contact-title:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background-color: var(--primary-color);
+	bottom: -20px;
+}
+
+.contact-p {
+	width: 100%;
+	text-align: justify;
+}
+
+.contact-button {
+	cursor: pointer;
+	height: 50px;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--secondary-color);
+	border: 1px var(--primary-color) solid;
+	color: var(--primary-color);
+	border-radius: 3px;
+	align-self: center;
+	transition: background-color 0.4s ease;
+	font-size: 18px;
+}
+
+.contact-button:hover {
+	background-color: var(--primary-color);
+	color: var(--text-color);
 }

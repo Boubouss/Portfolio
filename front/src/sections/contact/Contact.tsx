@@ -12,7 +12,14 @@ function Contact() {
 					<Input id="email" label="Email" type="email" />
 					<Input id="message" label="Message" type="textarea" />
 				</div>
-				<div className="contact-text"></div>
+				<div className="contact-text">
+					<h4 className="contact-title">Need help with a project ?</h4>
+					<p className="contact-p">
+						I can help you with your projects, whether in web development or
+						other, do not hesitate to contact me.
+					</p>
+					<button className="contact-button">Send</button>
+				</div>
 			</div>
 		</>
 	);
