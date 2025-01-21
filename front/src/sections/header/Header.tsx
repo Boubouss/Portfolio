@@ -5,7 +5,7 @@ import {
 	faLinkedin,
 	faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import profil from "../../assets/profil.png";
+import profil from "../../assets/rbouselh_pp.jpg";
 
 function Header() {
 	return (
