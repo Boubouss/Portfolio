@@ -46,6 +46,7 @@ button,
 input,
 textarea {
 	font: inherit;
+	all: unset;
 }
 
 img,

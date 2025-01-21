@@ -1,0 +1,19 @@
+.contact-container {
+	display: flex;
+	margin: 0px 100px 100px 100px;
+	padding: 50px 100px;
+	background-color: var(--secondary-color);
+	gap: 10px;
+}
+
+.contact-form {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+}
+
+.contact-text {
+	width: 40%;
+}

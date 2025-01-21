@@ -6,7 +6,7 @@
 .card-container img {
 	max-width: 100%;
 	height: auto;
-	border-radius: 5px;
+	border-radius: 8px;
 }
 
 .card-container:hover {
@@ -25,15 +25,24 @@
 	align-items: start;
 	justify-content: end;
 	gap: 10px;
-	padding-left: 15px;
+	padding: 0px 0px 25px 15px;
 	background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
 	color: var(--text-color);
 	font-size: 18px;
 	opacity: 0;
-	border-radius: 5px;
+	border-radius: 8px;
 	transition: opacity 0.3s ease;
 }
 
 .card-content:hover {
 	opacity: 1;
+}
+
+.card-container h3 {
+	color: var(--primary-color);
+	font-size: 22px;
+}
+
+.card-container span {
+	font-size: 14px;
 }

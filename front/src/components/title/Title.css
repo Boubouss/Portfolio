@@ -1,0 +1,18 @@
+.title {
+	position: relative;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	font-size: 42px;
+	height: 25vh;
+	padding-left: 100px;
+}
+
+.title::before {
+	content: "";
+	position: absolute;
+	width: 6%;
+	height: 5px;
+	background-color: var(--primary-color);
+	bottom: 7vh;
+}

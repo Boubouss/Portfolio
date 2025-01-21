@@ -1,5 +1,5 @@
 import "./Card.css";
-import img from "../../assets/vignette.png";
+import img from "../../assets/GitHub_picture.png";
 
 function Card({ title, description }) {
 	return (

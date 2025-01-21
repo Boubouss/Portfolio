@@ -1,0 +1,36 @@
+.input-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 10px;
+}
+
+.input-container label {
+	color: var(--primary-color);
+	font-size: 22px;
+}
+
+.input-container input {
+	height: 30px;
+	font-size: 22px;
+	background-color: var(--text-color);
+	border-radius: 5px;
+	color: black;
+	padding: 10px;
+}
+
+.input-container input:focus {
+	border-color: var(--primary-color);
+	border: 2px solid var(--primary-color);
+}
+
+.input-container textarea {
+	height: 120px;
+	font-size: 22px;
+	background-color: var(--text-color);
+	border-radius: 5px;
+	color: black;
+	padding: 10px;
+	overflow-wrap: break-word;
+	text-align: justify;
+}

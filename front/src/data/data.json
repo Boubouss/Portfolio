@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"title": "ProtfolioV1",
+		"title": "PortfolioV1",
 		"description": "This website.",
 		"state": 1
 	},
@@ -27,12 +27,6 @@
 		"id": 5,
 		"title": "Netflux",
 		"description": "Some web app dup.",
-		"state": 0
-	},
-	{
-		"id": 6,
-		"title": "...",
-		"description": "IDK...",
 		"state": 0
 	}
 ]
